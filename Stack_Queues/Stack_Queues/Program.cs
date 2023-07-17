@@ -15,17 +15,27 @@ namespace Stack_Queues
             stackUsingLinkedList.Push(70);
             stackUsingLinkedList.Push(30);
             stackUsingLinkedList.Push(56);
+          
             Console.WriteLine("Stack Structure- ");
             stackUsingLinkedList.Display();
             stackUsingLinkedList.IsEmpty();
             stackUsingLinkedList.Display();
-
+           
             QueueUsingLinkedList queueUsingLL = new QueueUsingLinkedList();
             queueUsingLL.Enqueue(56);
             queueUsingLL.Enqueue(30);
             queueUsingLL.Enqueue(70);
             Console.WriteLine("Queue Structure- ");
             queueUsingLL.Display();
+
+            QueueUsingLinkedList queueUsingLinkedList= new QueueUsingLinkedList();
+            queueUsingLinkedList.Dequeue(56);
+            queueUsingLinkedList.Dequeue(30);
+            queueUsingLinkedList.Dequeue(70);
+            Console.WriteLine("Queue Structure- ");
+            Console.WriteLine("****************");
+            queueUsingLinkedList.Display();
+
             Console.ReadLine();
         }
     }

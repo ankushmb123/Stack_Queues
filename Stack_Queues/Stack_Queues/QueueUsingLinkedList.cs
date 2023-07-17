@@ -28,6 +28,20 @@ namespace Stack_Queues
             }
             Console.WriteLine("{0} inserted into queue ", node.data);
         }
+        public void Dequeue(int data)
+        {
+            if (head == null)
+            {
+                Console.WriteLine("Queue is Empty");
+            }
+            while (head != null)
+            {
+
+                Console.WriteLine("Element is" + head.data);
+                head = head.next;
+            }
+        }
+
         public void Display()
         {
             Node temp = this.head;
