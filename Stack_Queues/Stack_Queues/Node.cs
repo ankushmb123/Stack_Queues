@@ -9,7 +9,6 @@ namespace Stack_Queues
     class Node
     {
         // Node is an element of linkedlist that hold data and address of next node.
-
         public int data;
         public Node next;
         public Node(int data)

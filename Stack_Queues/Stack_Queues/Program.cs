@@ -16,6 +16,9 @@ namespace Stack_Queues
             stackUsingLinkedList.Push(30);
             stackUsingLinkedList.Push(56);
             Console.WriteLine("Stack Structure- ");
+
+            stackUsingLinkedList.Display();
+            stackUsingLinkedList.IsEmpty();
             stackUsingLinkedList.Display();
             Console.ReadLine();
         }
